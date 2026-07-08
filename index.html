@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sufiyan Shahid Dev | Interactive SaaS Platform</title>
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="scroll-progress"></div>
+
+    <header class="main-header">
+        <div class="container header-inner">
+            <a class="navbar-brand" href="#hero">
+                <img class="brand-logo" width="15%" src="./assets/logo.jpeg" alt="">Sufiyan Shahid Dev
+            </a>
+
+            <button id="nav-toggle" class="nav-toggle" type="button">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="main-nav" id="mainNavbar">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#showcase">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#comparison">Compare</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="btn-theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-effects">
+                <div class="glow-circle glow-1"></div>
+                <div class="glow-circle glow-2"></div>
+            </div>
+            <div class="container text-center">
+                <h1 class="hero-title">
+                    Build the Future with <br>
+                    <span class="dynamic-text">Next-Gen SaaS Solutions</span>
+                </h1>
+                <p class="hero-subtitle mx-auto">
+                    Experience seamless performance, automated workflows, and exceptional frontend architectures
+                    tailored to convert scaling audiences.
+                </p>
+                <div class="hero-actions flex justify-center gap-3">
+                    <a href="#contact" class="btn btn-primary-custom">Get Started Free</a>
+                    <a href="#showcase" class="btn btn-secondary-custom">Explore Features</a>
+                </div>
+
+                <!-- Interactive Dashboard Preview -->
+                <div class="product-preview mt-5">
+                    <div class="preview-window">
+                        <div class="window-header">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                            <span class="window-title">Teyzix Core - BI Live Feed</span>
+                        </div>
+                        <div class="window-body">
+                            <div class="grid grid-3 stats-grid">
+                                <div class="stat-card">
+                                    <small class="stat-label">Active Users</small>
+                                    <h3 class="counter">0</h3>
+                                </div>
+                                <div class="stat-card">
+                                    <small class="stat-label">Conversion Rate</small>
+                                    <h3><span class="counter">0</span>%</h3>
+                                </div>
+                                <div class="stat-card">
+                                    <small class="stat-label">Uptime Performance</small>
+                                    <h3><span class="counter">0</span>.9%</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Showcase Section -->
+        <section id="showcase" class="showcase-section">
+            <div class="container">
+                <div class="text-center section-head">
+                    <h2 class="section-title">Engineered For High Performance</h2>
+                    <p class="section-subtitle">A deep dive into our modular product design capabilities.</p>
+                </div>
+                <div class="grid grid-3">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon"><i class="fas fa-layer-group"></i></div>
+                        <h3>Modular Blocks</h3>
+                        <p>Build applications using scalable, clean component structures designed to keep rendering
+                            execution lightning-fast.</p>
+                    </div>
+                    <div class="feature-card text-center">
+                        <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                        <h3>Instant Analytics</h3>
+                        <p>Track metrics using zero-latency dynamic event systems piped right into your storage
+                            repositories securely.</p>
+                    </div>
+                    <div class="feature-card text-center">
+                        <div class="feature-icon"><i class="fas fa-universal-access"></i></div>
+                        <h3>Semantic Structure</h3>
+                        <p>Never isolate users. Native semantic structural systems preserve proper keyboard tab
+                            workflows automatically.</p>
+                    </div>
+                </div>
+
+                <!-- Product Gallery and Demo Video Section -->
+                <div class="showcase-media mt-5">
+                    <h3 class="text-center">Platform in Action</h3>
+                    <p class="text-center section-subtitle">A closer look at the product, in screenshots and video.</p>
+
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="./assets/img-1.png" alt="Product screenshot 1" class="gallery-img">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="./assets/img-2.png" alt="Product screenshot 2" class="gallery-img">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="./assets/img-3.png" alt="Product screenshot 3" class="gallery-img">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="./assets/img-4.png" alt="Product screenshot 4" class="gallery-img">
+                        </div>
+                    </div>
+
+                    <!-- Demo Video -->
+                    <div class="video-wrap">
+                        <video class="demo-video" controls poster="">
+                            <source src="./assets/Video/Sufiyan Shahid Dev _ Interactive SaaS Platform - Google Chrome 2026-07-07 20-13-24.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing-section">
+            <div class="container">
+                <div class="text-center section-head">
+                    <h2 class="section-title">Flexible, Transparent Pricing</h2>
+                    <p class="section-subtitle">Scale your operational execution infrastructure securely without
+                        processing surprises.</p>
+
+                    <div class="toggle-container d-flex align-items-center">
+                        <span id="label-monthly" class="toggle-label active">Monthly</span>
+                        <button id="billing-toggle" class="billing-slider-btn"></button>
+                        <span id="label-yearly" class="toggle-label">Yearly <span class="badge bg-success-soft">Save
+                                20%</span></span>
+                    </div>
+                </div>
+
+                <div class="grid grid-2 pricing-grid">
+                    <!-- Starter Plan -->
+                    <div class="pricing-card">
+                        <h3>Starter Plan</h3>
+                        <div class="price-box">
+                            <span class="currency">$</span>
+                            <span class="price-amount">19</span>
+                            <span class="period">/mo</span>
+                        </div>
+                        <p class="text-muted">Perfect for solo frontend developers experimenting with modern
+                            interfaces.</p>
+                        <hr class="card-divider">
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check text-success"></i> 5 Active Project Pipelines</li>
+                            <li><i class="fas fa-check text-success"></i> Basic Micro-Frontend Templates</li>
+                            <li><i class="fas fa-check text-success"></i> Local Storage Integration Layers</li>
+                            <li class="text-muted"><i class="fas fa-times"></i> Custom Core API Architecture</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-secondary-custom w-100 text-center">Choose Starter</a>
+                    </div>
+                    <!-- Professional Plan -->
+                    <div class="pricing-card popular">
+                        <div class="popular-badge">Most Popular</div>
+                        <h3>Professional</h3>
+                        <div class="price-box">
+                            <span class="currency">$</span>
+                            <span class="price-amount">49</span>
+                            <span class="period">/mo</span>
+                        </div>
+                        <p class="text-muted">Designed specifically to deliver highly interactive design systems to
+                            ecosystems.</p>
+                        <hr class="card-divider">
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check text-success"></i> Unlimited Project Architectures</li>
+                            <li><i class="fas fa-check text-success"></i> Advanced Glassmorphism Kits</li>
+                            <li><i class="fas fa-check text-success"></i> Real-time External JSON Fetching</li>
+                            <li><i class="fas fa-check text-success"></i> Dedicated Tech-Stack Consulting</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary-custom w-100 text-center">Choose Professional</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Comparison Table -->
+        <section id="comparison" class="comparison-section">
+            <div class="container">
+                <div class="text-center section-head">
+                    <h2 class="section-title">Compare Capabilities</h2>
+                    <p class="section-subtitle">See why Sufiyan Shahid Dev beats standard native web stacks.</p>
+                </div>
+                <div class="table-responsive custom-table-container">
+                    <table class="custom-table">
+                        <thead>
+                            <tr>
+                                <th scope="col" style="width: 40%;">Core Feature Matrix</th>
+                                <th scope="col" style="width: 30%;">Starter Pack</th>
+                                <th scope="col" style="width: 30%;">Professional Tier</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Responsive Components</th>
+                                <td><i class="fas fa-check text-success"></i> Included</td>
+                                <td><i class="fas fa-check text-success"></i> Highly Optimized</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Production Component Bundles</th>
+                                <td><i class="fas fa-minus text-muted"></i> Minimal</td>
+                                <td><i class="fas fa-check text-success"></i> Over 150+ Elements</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Automated LocalStorage Saving</th>
+                                <td><i class="fas fa-check text-success"></i> Included</td>
+                                <td><i class="fas fa-check text-success"></i> Encrypted State Saving</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Slider -->
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <div class="text-center section-head">
+                    <h2 class="section-title">What Innovators Say</h2>
+                    <p class="section-subtitle">Real feedback tracked via live production installations.</p>
+                </div>
+                <div class="testimonial-slider-wrapper">
+                    <div class="testimonial-track">
+                        <div class="testimonial-slide active">
+                            <div class="testimonial-card text-center">
+                                <div class="stars">
+                                    <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i
+                                        class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i
+                                        class="fas fa-star text-warning"></i>
+                                </div>
+                                <p class="testimonial-text">"Working with Sufiyan Shahid Dev shifted our goals entirely.
+                                    The glassmorphism elements maintain rendering fluidly on mobile platforms."</p>
+                                <h5>Arham Maqsood</h5>
+                                <small class="text-muted">Project Supervisor</small>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card text-center">
+                                <div class="stars">
+                                    <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i
+                                        class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i
+                                        class="fas fa-star text-warning"></i>
+                                </div>
+                                <p class="testimonial-text">"The focus towards clean code execution parameters allowed
+                                    our specialists to execute benchmarks with zero layout shifting."</p>
+                                <h5>Hassan Rizwan</h5>
+                                <small class="text-muted">Product Architect</small>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card text-center">
+                                <div class="stars">
+                                    <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i
+                                        class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i
+                                        class="fas fa-star text-warning"></i>
+                                </div>
+                                <p class="testimonial-text">"Collaborating with Sufiyan Shahid Dev transformed our digital vision completely. The modern interface delivers seamless performance while maintaining a polished experience across all devices."</p>
+                                <h5>Umer Fareed</h5>
+                                <small class="text-muted">Lead UX Engineer</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-controls flex justify-center gap-3">
+                        <button id="prev-slide-btn" class="btn-nav-circle"><i class="fas fa-chevron-left"></i></button>
+                        <button id="next-slide-btn" class="btn-nav-circle"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Accordion -->
+        <section id="faq" class="faq-section">
+            <div class="container faq-container">
+                <div class="text-center section-head">
+                    <h2 class="section-title">Frequently Answered Queries</h2>
+                    <p class="section-subtitle">Clear explanations concerning design setups, local states, and
+                        operational criteria.</p>
+                </div>
+                <div class="faq-accordion-group">
+                    <div class="faq-item">
+                        <button class="faq-trigger">
+                            <span>How many time you will take to deliver a Website?</span>
+                            <i class="fas fa-chevron-down item-arrow"></i>
+                        </button>
+                        <div id="faq-ans-1" class="faq-panel">
+                            <div class="faq-content">
+                                <p>Great Question it is totally depends on your requirement what type of website you need like E-Commerce, Education Website and moreover.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-trigger">
+                            <span>Can you make Website on urgent basis?</span>
+                            <i class="fas fa-chevron-down item-arrow"></i>
+                        </button>
+                        <div id="faq-ans-2" class="faq-panel">
+                            <div class="faq-content">
+                                <p>Absolutely. But to deliver a website on urgent basis you have to extra amount accordingly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Preview -->
+        <section id="blog" class="blog-section">
+            <div class="container">
+                <div class="text-center section-head">
+                    <h2 class="section-title">Latest Knowledge Insights</h2>
+                    <p class="section-subtitle">Latest Knowledge that you should know.</p>
+                </div>
+                <div id="blog-posts-container" class="grid grid-3">
+                    <div class="blog-spinner-wrap" id="blog-spinner">
+                        <div class="spinner"></div>
+                        <span class="visually-hidden">Loading Posts...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact" class="contact-section">
+            <div class="container contact-container">
+                <div class="text-center section-head">
+                    <h2 class="section-title">Initiate Your Deployment</h2>
+                    <p class="section-subtitle">Contact US for more info.</p>
+                </div>
+                <div class="contact-card">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="contactName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="contactName" required
+                                placeholder="Sufiyan Shahid">
+                            <div class="error-feedback" id="nameError">Please enter your name.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="contactEmail" required
+                                placeholder="dev@example.com">
+                            <div class="error-feedback" id="emailError">Please enter a valid email address syntax.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage" class="form-label">Message Context</label>
+                            <textarea class="form-control" id="contactMessage" rows="4" required
+                                placeholder="Discuss your development requirements..."></textarea>
+                            <div class="error-feedback" id="messageError">Please supply a message.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary-custom w-100">Send Message</button>
+                    </form>
+                    <div id="formAlertMessage" class="alert text-center"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a class="navbar-brand" href="#hero">
+                        <img class="brand-logo" width="15%" src="./assets/logo.jpeg" alt="">Sufiyan Shahid Dev
+                    </a>
+                    <p class="footer-tagline">Building next-gen, high-performance SaaS interfaces with clean,
+                        dependency-light frontend architecture.</p>
+                    <div class="footer-social-links flex gap-3">
+                        <a target="_blank" href="https://github.com/SufiyanShahidDev"><i class="fab fa-github"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/sufiyanshahiddev/"><i class="fab fa-linkedin"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/sufiyanshahiddev/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#showcase">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#comparison">Compare</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#testimonials">Reviews</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Get Help</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="footer-divider">
+
+            <div class="footer-bottom flex justify-center items-center">
+                <p>&copy; 2026 Sufiyan Shahid Dev. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" class="btn-nav-circle">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- lightbox for images -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close">&times;</button>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Enlarged gallery preview">
+    </div>
+
+    <!-- JS File -->
+    <script src="app.js"></script>
+</body>
+
+</html>
