@@ -2,7 +2,6 @@
 
 > A fully responsive, framework-free SaaS landing page — built with nothing but HTML, CSS, JavaScript, and Local Storage.
 
-<!-- 🖼️ HERO SCREENSHOT — drop your image at ./screenshots/hero.png and this will show automatically -->
 ![Hero Section](./assets/img-1.png)
 
 ---
@@ -20,20 +19,17 @@ The result is an immersive, conversion-focused SaaS site: hero → product proof
 ### 🎯 Hero Section
 Animated headline, clear call-to-action buttons, and a product preview that greets every visitor with intent — not a wall of text.
 
-<!-- Screenshot: hero section close-up -->
 ![Hero Section](./assets/img-1.png)
 
 ### 🧩 Product Showcase
 An interactive card grid with hover animations, an image gallery, and an embedded video preview — so visitors *see* the product instead of just reading about it.
 
-<!-- Screenshot: product showcase -->
-![Product Showcase](./readme-assets/Project-gallery.png)
+![Product Showcase](./assets/readme-assets/Project-gallery.png)
 
 ### 💰 Pricing Section
 A monthly/yearly toggle that recalculates prices instantly, no page reload, with the most popular plan visually highlighted.
 
-<!-- Screenshot: pricing toggle -->
-![Pricing Section](./screenshots/pricing.png)
+![Pricing Section](./assets/img-2.png)
 
 ### 📊 Feature Comparison
 A clean, scannable table with icons and visual indicators so it's obvious at a glance what each plan includes.
@@ -41,8 +37,7 @@ A clean, scannable table with icons and visual indicators so it's obvious at a g
 ### 💬 Customer Testimonials
 An auto-sliding carousel with star ratings and manual navigation controls, because social proof works.
 
-<!-- Screenshot: testimonials + comparison table -->
-![Testimonials](./screenshots/testimonials.png)
+![Testimonials](./assets/img-3.png)
 
 ### ❓ FAQ Section
 Accordion-style questions with smooth expand/collapse animation — only one answer open at a time, so it stays tidy.
@@ -50,14 +45,12 @@ Accordion-style questions with smooth expand/collapse animation — only one ans
 ### 📰 Blog Preview
 Featured article cards with category tags, keeping visitors engaged with the brand beyond the product itself.
 
-<!-- Screenshot: FAQ + blog preview -->
-![FAQ and Blog](./screenshots/faq-blog.png)
+![FAQ and Blog](./assets/img-4.png)
 
 ### 📬 Contact Section
 A validated contact form with real inline error messages and clear success/error states — not just a form that silently does nothing.
 
-<!-- Screenshot: contact form success state -->
-![Contact Form](./screenshots/contact.png)
+![Contact Form](./assets/readme-assets/contact-form.png)
 
 ### ⚡ Interactive Components (everywhere)
 - 🌗 Dark/Light mode — saved to Local Storage, remembered on your next visit
@@ -69,8 +62,7 @@ A validated contact form with real inline error messages and clear success/error
 ### 📱 Fully Responsive
 Tested and tuned across desktop, laptop, tablet, and mobile — no broken grids, no horizontal scroll, no excuses.
 
-<!-- Screenshot: side-by-side desktop vs mobile -->
-![Responsive Preview](./screenshots/responsive.png)
+![Responsive Preview](./assets/readme-assets/responsive.png)
 
 ---
 
