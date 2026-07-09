@@ -3,7 +3,7 @@
 > A fully responsive, framework-free SaaS landing page — built with nothing but HTML, CSS, JavaScript, and Local Storage.
 
 <!-- 🖼️ HERO SCREENSHOT — drop your image at ./screenshots/hero.png and this will show automatically -->
-![Hero Section](./screenshots/hero.png)
+![Hero Section](./assets/img-1.png)
 
 ---
 
