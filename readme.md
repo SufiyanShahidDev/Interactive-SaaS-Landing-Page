@@ -7,7 +7,7 @@
 
 ---
 
-## Why this project exists
+## Why this project?
 
 Most landing pages lean on Bootstrap or a JS framework to get interactivity for free. This one doesn't. Every animation, every toggle, every carousel, every accordion — it's all hand-written, plain JavaScript, no dependencies. The goal was simple: prove that a vanilla frontend can look and feel just as polished as a framework-powered one, while staying lighter, faster, and fully under your control.
 
@@ -21,13 +21,13 @@ The result is an immersive, conversion-focused SaaS site: hero → product proof
 Animated headline, clear call-to-action buttons, and a product preview that greets every visitor with intent — not a wall of text.
 
 <!-- Screenshot: hero section close-up -->
-![Hero Close-up](./screenshots/hero-closeup.png)
+![Hero Section](./assets/img-1.png)
 
 ### 🧩 Product Showcase
 An interactive card grid with hover animations, an image gallery, and an embedded video preview — so visitors *see* the product instead of just reading about it.
 
 <!-- Screenshot: product showcase -->
-![Product Showcase](./screenshots/product-showcase.png)
+![Product Showcase](./readme-assets/Project-gallery.png)
 
 ### 💰 Pricing Section
 A monthly/yearly toggle that recalculates prices instantly, no page reload, with the most popular plan visually highlighted.
