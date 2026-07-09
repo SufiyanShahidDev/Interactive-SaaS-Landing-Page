@@ -77,76 +77,29 @@ No frameworks. No Bootstrap. No build step required to run it.
 | **JavaScript (vanilla)** | Every interactive behavior — navigation, carousels, accordions, form validation, counters, scroll effects, theme switching |
 | **Local Storage** | Remembers the visitor's dark/light mode preference between visits |
 
-A quick note on **why Bootstrap was removed**: the project originally used Bootstrap-style markup, but every Bootstrap-specific attribute and class was stripped out and rebuilt in vanilla JS — mainly to get full control over accessibility. All `aria-*`, `role`, and `data-*` attributes that Bootstrap would normally manage are now handled manually, kept in sync with each component's state through plain event listeners and class toggling. Same goes for the mobile navigation menu — no Bootstrap Collapse plugin under the hood, just a small script that manages open/close state and focus itself.
 
 ### Project Flow
 
 The diagram below shows how a visitor moves through the page, alongside the background logic that runs alongside it (theme detection, scroll tracking, form validation).
 
 <!-- Screenshot / diagram: project flow chart -->
-![Project Flow](./screenshots/flowchart.png)
+![Project Flow](./assets/readme-assets/flowchart.png)
 
 ---
 
 ## 📁 Folder Structure
 
 ```
-├── index.html          # Single-page entry point — all sections live here
-├── css/                 # Base styles, layout, components, theme variables
-├── js/                  # One concern per file: nav, theme toggle, carousel,
-│                         #   accordion, form validation, counters
+├── index.html          
+├── style.css                 
+├── app,js                  
+│                         
 ├── assets/
-│   ├── images/          # Hero, gallery, and blog images
-│   └── video/           # Product demo video
-└── screenshots/          # 👈 drop your README screenshots here (see below)
+│   ├── images/          
+│   └── video/           
+└── └── readme-assets/           
+       
 ```
-
----
-
-## 🚀 Getting Started
-
-No build tools, no npm install, no bundler. Just:
-
-```bash
-git clone <your-repo-url>
-cd <your-project-folder>
-```
-
-Then open `index.html` directly in your browser, or serve it locally for the best experience:
-
-```bash
-# Using Python
-python3 -m http.server 8000
-
-# Or using VS Code's Live Server extension
-```
-
-Visit `http://localhost:8000` and you're in.
-
----
-
-## 🖼️ Adding Your Screenshots
-
-Every image tag in this README already points to a file inside a `screenshots/` folder. To make them appear, just:
-
-1. Create a folder named `screenshots/` in the project root (if it isn't there already)
-2. Add your images using these exact filenames:
-
-| Filename | What it should show |
-|---|---|
-| `hero.png` | Full hero section (top banner image) |
-| `hero-closeup.png` | Hero section close-up (headline + CTA buttons) |
-| `product-showcase.png` | Product showcase with gallery open |
-| `pricing.png` | Pricing cards, ideally with the toggle switched to yearly |
-| `testimonials.png` | Testimonials carousel + feature comparison table |
-| `faq-blog.png` | FAQ accordion (one item expanded) + blog preview cards |
-| `contact.png` | Contact form in its success state |
-| `responsive.png` | Desktop and mobile layouts side by side |
-| `flowchart.png` | The project flow diagram |
-
-That's it — no code changes needed. Drop the images in with those names and every placeholder above fills in automatically.
-
----
 
 ## 🌐 Browser Support
 
@@ -164,10 +117,4 @@ Built and tested on modern evergreen browsers — Chrome, Edge, Firefox, and Saf
 
 ---
 
-## 📄 License
-
-Add your license of choice here (MIT, Apache 2.0, etc.).
-
----
-
-<p align="center">Built with HTML, CSS, JavaScript, and a refusal to add a single framework.</p>
+<p align="center">Built with HTML, CSS, and JavaScript.</p>
